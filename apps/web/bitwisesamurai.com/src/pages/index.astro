@@ -1,17 +1,28 @@
 ---
-
+import Samurai from "../components/samurai.astro";
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Contact us today to learn how Bitwise Samurai can help you build custom, reasonably priced apps and websites that are as unique as your small business!"
+    />
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
     <title>Bitwise Samurai</title>
   </head>
   <body>
-    <h1>Hello</h1>
+    <div class="h-screen flex justify-center items-center">
+      <h1>
+        <span class="font-bold text-[21px] uppercase">Bitwise</span><span
+          class="font-light text-[21px] uppercase">Samurai</span
+        >
+      </h1>
+      <Samurai />
+    </div>
   </body>
 </html>
