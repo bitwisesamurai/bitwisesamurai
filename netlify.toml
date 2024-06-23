@@ -1,4 +1,4 @@
 [build]
-  publish = "apps/web/bitwisesamurai.com/..."
+  publish = "apps/web/bitwisesamurai.com/dist"
   command = "npm run build"
   
